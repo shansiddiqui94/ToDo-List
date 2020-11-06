@@ -24,5 +24,5 @@ Taking User input, and delete/clear current tasks:<br> the **JS** consist of <br
 _newElement_: will alert you if you dont write anything in the textbox, and will create the input <br>
 _removeAll_: This will clear the whole list <br>
 _close_: This will hide the current list item <br>
-_list_: Thi will add a check to you current task <br>
+_list_: This will add a check to you current task <br>
 
