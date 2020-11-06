@@ -19,8 +19,8 @@ CSS was used to give the project more flair, and to style the project. The **CSS
 - Background-image, linear-gradient <br>
 
 **_JavaScript_** <br>
-Taking User input: the **JS** consist of <br>
-_Constructor Function_: Adds a new task to the todo list <br>
+Taking User input, and delete/clear current tasks:<br> the **JS** consist of <br>
+ _Constructor Function_: Adds a new task to the todo list <br>
 _newElement_: will alert you if you dont write anything in the textbox, and will create the input <br>
 _removeAll_: This will clear the whole list <br>
 _close_: This will hide the current list item <br>
