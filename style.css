@@ -1,0 +1,136 @@
+body {
+    margin: 10px auto;
+    min-width: 250px;
+    max-width: 50%;
+    padding-top: 10%;
+    background-image: linear-gradient(to left top, #582d4d, #4d284c, #40254b, #332149, #231e47, #1d1c47, #171a46, #0f1846, #171647, #1e1448, #251148, #2c0d48);
+    /* overflow: auto; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #e6e6e1;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #e6e6e1;
+}
+
+ul li:hover {
+    background: rgb(190, 127, 127);
+}
+
+ul li.checked {
+    background: #845EC2;
+    color: white;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+
+/* close button */
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #CE3E2B;
+    color: white;
+}
+
+.header {
+    background-color: #B0A8B9;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #CE3E2B;
+    color: black;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+    background-color: #CE3E2B;
+}
+
+#clear-list {
+    width: 30%;
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    font-family: "fantasy";
+    margin: 40px 35%;
+    background-color: #4B4453;
+    color: white;
+}
+
+#clear-list:hover {
+    background-color: #665858a9;
+    color: rgb(206, 14, 14);
+}
+
+
+/* .footer {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+} */
