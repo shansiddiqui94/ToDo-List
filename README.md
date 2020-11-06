@@ -14,15 +14,15 @@ _Script Tag_: This will link the **JS** file to the **HTML**
 
 **_CSS_** <br>
 CSS was used to give the project more flair, and to style the project. The **CSS** consist of <br><br>
-- Margins, widgth, padding, position
-- Font-size, font family, text-align, font-size
-- Background-image, linear-gradient 
+- Margins, widgth, padding, position <br>
+- Font-size, font family, text-align, font-size <br>
+- Background-image, linear-gradient <br>
 
 **_JavaScript_** <br>
 Taking User input: the **JS** consist of <br>
-_Constructor Function_: Adds a new task to the todo list
-_newElement_: will alert you if you dont write anything in the textbox, and will creat the input
-_removeAll_: This will clear the whole list 
-_close_: This will hide the current list item
-_list_: Thi will add a check to you current task
+_Constructor Function_: Adds a new task to the todo list <br>
+_newElement_: will alert you if you dont write anything in the textbox, and will create the input <br>
+_removeAll_: This will clear the whole list <br>
+_close_: This will hide the current list item <br>
+_list_: Thi will add a check to you current task <br>
 
